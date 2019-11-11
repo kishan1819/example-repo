@@ -4,6 +4,8 @@
  */
 package example_project;
 
+import java.util.*;
+
 /**
  * @author Kishan
  *
@@ -16,6 +18,10 @@ public class HelloWorld {
     public static void main(String[] args) {
         // TODO Auto-generated method stub
         System.out.println("Hello world");
+        System.out.println("Enter a number: ");
+        int num = input.nextInt();
+        input.close();
+        System.out.println("The square of " + num + " is " + num * num);
     }
 
 }
