@@ -23,9 +23,7 @@ public class HelloWorld {
         int num = input.nextInt();
         input.close();
         System.out.println("The square of " + num + " is " + num * num);
-        System.out.println("This is new to the file");
-
-        // This is a new message
+        System.out.println("This is a branch");
     }
 
 }
