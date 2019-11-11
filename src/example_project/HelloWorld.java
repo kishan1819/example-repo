@@ -23,6 +23,7 @@ public class HelloWorld {
         int num = input.nextInt();
         input.close();
         System.out.println("The square of " + num + " is " + num * num);
+        // This is a new message
     }
 
 }
